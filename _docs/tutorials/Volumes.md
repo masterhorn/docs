@@ -9,10 +9,7 @@ tags: [featured, tutorial]
 
 ## {: .no_toc }
 
-Our Security Guide provide further information on security incidents reported with e-mail Reports to Users and how to fix the issues.
-
-The open services can be abused – or have already been actively abused – for DDoS reflection attacks against third parties.
-Currently, incidents on the following openly accessible services are taken into account:
+On this page, you can find an explanation of how to create, edit, attach and detach volumes in Ventus Cloud Portal.
 
 ## Table of contents
 
