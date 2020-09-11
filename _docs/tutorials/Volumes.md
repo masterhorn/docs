@@ -20,17 +20,23 @@ In this page, you can find an explanation of how to create, edit, attach and det
 
 ## About Volumes page
 
-**You can get to the volume page through the left-bar menu.**
+You can get to the volume page through the left-bar menu:
 
-In upper left corner click on menu icon
+- In upper left corner click on menu icon
 
 ![](../../assets/img/Volumes/volume_page_1.png)
 
-And click on Volumes in opened menu
+- And click on Volumes in opened menu
 
 ![](../../assets/img/Volumes/volume_page_2.png)
 
-**Defenition:**  
+**Page content:**
+
+Volume page consist of headers which include all needed information about volume:
+
+- **Name:** The name of volume that user specifies in creation. If volume was created by instance, name will be automaticly fill with volume ID.
+- **Region:** Shows in which region volume will be located. This infromation user specifie when creating volume. There are three available regions: `as`, `us`, `vs`.
+
 **The Network Time Protocol (NTP)** is a networking protocol for clock synchronization between IT systems. NTP supports a monitoring service that allows administrators to query the server for traffic counts of connected clients via the 'monlist' command.
 
 **Problem:**  
