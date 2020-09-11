@@ -48,7 +48,7 @@
       url: "docs/tutorials"
       children:
         - title: "Volumes"
-          url: "/tutorials/Volumes"
+          url: "docs/tutorials/Volumes"
         - title: "CI/CD using Knative and Tekton Pipelines"
           url: "docs/tutorials/tekton-pipelines"
         - title: "Install a LAMP web server on a Linux virtual machine"
