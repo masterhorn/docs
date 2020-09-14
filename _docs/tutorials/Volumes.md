@@ -36,10 +36,12 @@ Volume page consist of headers which include all needed information about volume
 
 ![](../../assets/img/Volumes/volume_page_3.png)
 
-- **Name:** The name of volume that user specifies in creation. If volume was created by instance, name will be automaticly fill with volume ID.
-- **Region:** Shows in which region volume will be located. This infromation user specifie when creating volume. There are three available regions: `as`, `us`, `vs`.
-
-- **Size:**
+- **Name:** The name of volume. If volume was created by instance, name will be automaticly fill with volume ID.
+- **Region:** Shows in which region volume will be located. There are three available regions: `as`, `us`, `vs`.
+- **Size:** Shows volume size.
+- **Type:** Shows volume type.
+- **Description:** Shows description to volume.
+- **Status:** Shows in which status volume is. If volume is free, status will be `available` other way status will be `in-use`.
 
 **The Network Time Protocol (NTP)** is a networking protocol for clock synchronization between IT systems. NTP supports a monitoring service that allows administrators to query the server for traffic counts of connected clients via the 'monlist' command.
 
