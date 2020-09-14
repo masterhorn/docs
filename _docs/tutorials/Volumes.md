@@ -47,7 +47,7 @@ Headers include:
 
 ## Create volume
 
-To create a volume, you need clikc on the create button in the left upper corner of volume page.
+To create a volume, you need click on the create button in the left upper corner of volume page.
 
 ![](../../assets/img/Volumes/volume_page_4.png)
 
@@ -72,11 +72,21 @@ When you specify all required fields click on **Create Volume** button.
 
 Then, the volume creation window will close and after a few seconds the volume you created will appear with the status `available`
 
-![](../../assets/img/Volumes/volume_page_7.png)
-
 **Cancel** button will close volume creation window and will update all fields to their default state.
 
-**The Network Time Protocol (NTP)** is a networking protocol for clock synchronization between IT systems. NTP supports a monitoring service that allows administrators to query the server for traffic counts of connected clients via the 'monlist' command.
+## Delete volume
 
-**Problem:**  
-The NTP 'monlist' feature can be abused for DDoS reflection attacks against third parties.
+To delete volume you can use two deferent ways:
+
+- Through the **side bar menu** of volume
+- Through the **checkbox** in front of volume Name.
+
+To delete volume through the side bar menu you must click on it in right side of volume you want to delete.
+
+![](../../assets/img/Volumes/volume_page_8.png)
+
+In opened dropdown window click on `Delete` option.
+
+![](../../assets/img/Volumes/volume_page_9.png)
+
+It will open confirmation window where user must confirm volume deletion or cancel it.
