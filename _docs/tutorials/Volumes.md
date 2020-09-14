@@ -85,8 +85,14 @@ To delete volume through the side bar menu you must click on it in right side of
 
 ![](../../assets/img/Volumes/volume_page_8.png)
 
-In opened dropdown window click on `Delete` option.
+In opened dropdown menu click on `Delete` option.
 
 ![](../../assets/img/Volumes/volume_page_9.png)
 
 It will open confirmation window where user must confirm volume deletion or cancel it.
+
+![](../../assets/img/Volumes/volume_page_10.png)
+
+**Cancel** button will close volume deletion window.
+
+**Confirm** button will close volume deletion window and after a few seconds the volume will be deleted.
