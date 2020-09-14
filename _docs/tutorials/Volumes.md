@@ -51,9 +51,9 @@ To create a volume, you need clikc on the create button in the left upper corner
 
 ![](../../assets/img/Volumes/volume_page_4.png)
 
-The create button will open **Create volume** window, which consist of required and optional fields for colume creation:
+The create button will open **Create volume** window, which consist of required and optional fields for volume creation, and two buttons **Create Volume** and **Cancel**:
 
-![](../../assets/img/Volumes/volume_page_4.png)
+![](../../assets/img/Volumes/volume_page_5.png)
 
 The required fields is: `Name`, `Size`, `Region`, `Type`.
 Optional field is: `Description`.
@@ -65,6 +65,16 @@ First of all you must specify volume name, size and region. Only after region wa
 **Region** can be specifed from three available regions: `as`, `us`, `vs`. It depends on which region the created volume will be located.
 **Type** can be specifed from two available types: `RBD` and `__DEFAULT__`.
 **Description** can include all letter, numbers or symbols and must be not bigger then 255 characters.
+
+When you specify all required fields click on **Create Volume** button.
+
+![](../../assets/img/Volumes/volume_page_6.png)
+
+Then, the volume creation window will close and after a few seconds the volume you created will appear with the status `available`
+
+![](../../assets/img/Volumes/volume_page_7.png)
+
+**Cancel** button will close volume creation window and will update all fields to their default state.
 
 **The Network Time Protocol (NTP)** is a networking protocol for clock synchronization between IT systems. NTP supports a monitoring service that allows administrators to query the server for traffic counts of connected clients via the 'monlist' command.
 
