@@ -60,11 +60,11 @@ Optional field is: `Description`.
 
 First of all you must specify volume name, size and region. Only after region was selected you can choose volume type. And after you can fill description as needed.
 
-**Name** of volume can include all letter, numbers or symbols and must be not bigger then 255 characters. If volume was created by instance, name will be automaticly fill with volume ID.
-**Size** can be specifed in the range from 10 GB to 1000 GB. Minimal availabel size `10 GB` is selected by default when you opening create window.
-**Region** can be specifed from three available regions: `as`, `us`, `vs`. It depends on which region the created volume will be located.
-**Type** can be specifed from two available types: `RBD` and `__DEFAULT__`.
-**Description** can include all letter, numbers or symbols and must be not bigger then 255 characters.
+- **Name** of volume can include all letter, numbers or symbols and must be not bigger then 255 characters. If volume was created by instance, name will be automaticly fill with volume ID.
+- **Size** can be specifed in the range from 10 GB to 1000 GB. Minimal availabel size `10 GB` is selected by default when you opening create window.
+- **Region** can be specifed from three available regions: `as`, `us`, `vs`. It depends on which region the created volume will be located.
+- **Type** can be specifed from two available types: `RBD` and `__DEFAULT__`.
+- **Description** can include all letter, numbers or symbols and must be not bigger then 255 characters.
 
 When you specify all required fields click on **Create Volume** button.
 
