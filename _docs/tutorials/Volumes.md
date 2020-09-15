@@ -76,7 +76,7 @@ Then, the "Create Volume" window will close and after a few seconds the volume y
 ## Attach/Detach volume
 ---
 
-### Attach volume
+- ### Attach volume
 
 To attach volume you must choose volume which has `available` status and click on side bar menu.
 
@@ -100,7 +100,7 @@ Then, the "Attach Volume" window will close and after a few seconds the volume w
 
 **Cancel** button will close "Attach Volume" window.
 
-### Detach volume
+- ### Detach volume
 
 To detach volume you must choose volume which has `in-use` status and click on side bar menu.
 
