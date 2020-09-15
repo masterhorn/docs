@@ -71,7 +71,7 @@ When you specify all required fields click on **Create Volume** button.
 
 Then, the "Create Volume" window will close and after a few seconds the volume you created will appear with the status `available`
 
-**Cancel** button will close volume "Create Volume" window and will update all fields to their default state.
+**Cancel** button will close "Create Volume" window and will update all fields to their default state.
 
 ## Attach/Detach volume
 ---
