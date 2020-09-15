@@ -46,7 +46,7 @@ Headers include:
 ## Create volume
 ---
 
-To create a volume, you need click on the create button in the left upper corner of volume page.
+To create a volume, you need click on the create button in the right upper corner of volume page.
 
 ![](../../assets/img/Volumes/volume_page_4.png)
 
