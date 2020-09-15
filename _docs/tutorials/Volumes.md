@@ -54,7 +54,7 @@ It will open **Create volume** window, which consist of required and optional fi
 
 ![](../../assets/img/Volumes/volume_page_5.png)
 
-The required fields is: `Name`, `Size`, `Region`, `Type`.
+The required fields is: `Name`, `Size`, `Region`, `Type`.<br>
 Optional field is: `Description`.
 
 First, you must specify volume name, size and region. Only after region was selected you can select volume type. And after you can fill description as needed.
