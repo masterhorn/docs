@@ -30,7 +30,7 @@ You can get to the volume page through the left-bar menu:
 
 **Page content:**
 
-Volume page consist of **headers** which include all needed information about volume, **Create button**, **side bar menu** on the right side of page, **search bar** in front of create button:
+Volume page consist of **headers** which include all needed information about volume, **Create button**, **side-bar menu** on the right side of page, **search bar** in front of create button:
 
 ![](../../assets/img/Volumes/volume_page_3.png)
 
@@ -57,15 +57,15 @@ It will open **Create volume** window, which consist of required and optional fi
 The required fields is: `Name`, `Size`, `Region`, `Type`.
 Optional field is: `Description`.
 
-First of all you must specify volume name, size and region. Only after region was selected you can select volume type. And after you can fill description as needed.
+First, you must specify volume name, size and region. Only after region was selected you can select volume type. And after you can fill description as needed.
 
-- **Name** of volume can include all letter, numbers or symbols and must be not bigger then 255 characters. If volume was created by instance, name will be automaticly fill with volume ID.
-- **Size** can be specifed in the range from 10 GB to 1000 GB. Minimal availabel size `10 GB` is selected by default when you opening create window.
-- **Region** can be specifed from three available regions: `as`, `us`, `vs`. It depends on which region the created volume will be located.
-- **Type** can be specifed from two available types: `RBD` and `__DEFAULT__`.
-- **Description** can include all letter, numbers or symbols and must be not bigger then 255 characters.
+- **Name** of volume can include all letter, numbers or symbols and must be not bigger than 255 characters. If volume was created by instance, name will be automatically fill with volume ID.
+- **Size** can be specified   in the range from 10 GB to 1000 GB. Minimal available  size `10 GB` is selected by default when you are opening create window.
+- **Region** can be specified   from three available regions: `as`, `us`, `vs`. It depends on which region the created volume will be located.
+- **Type** can be specified   from two available types: `RBD` and `__DEFAULT__`.
+- **Description** can include all letter, numbers or symbols and must be not bigger than 255 characters.
 
-When you specify all required fields click on **Create Volume** button.
+After you specify all required fields click on **Create Volume** button.
 
 ![](../../assets/img/Volumes/volume_page_6.png)
 
@@ -80,7 +80,7 @@ Then, the "Create Volume" window will close and after a few seconds the volume y
 
 - ### Attach volume
 
-To attach volume you must select volume which has `available` status and click on side bar menu.
+To attach volume you must select volume which has `available` status and click on side-bar menu.
 
 ![](../../assets/img/Volumes/volume_page_11.png)
 
@@ -98,7 +98,7 @@ After you have selected an instance, click on **Attach Volume** button.
 
 ![](../../assets/img/Volumes/volume_page_14.png)
 
-Then, the "Attach Volume" window will close and after a few seconds the volume will attached to instance and will go into status `in-use`
+Then, the "Attach Volume" window will close and after a few seconds the volume will be attached to instance and will go into status `in-use`
 
 **Cancel** button will close "Attach Volume" window.
 
@@ -106,7 +106,7 @@ Then, the "Attach Volume" window will close and after a few seconds the volume w
 
 - ### Detach volume
 
-To detach volume you must select volume which has `in-use` status and click on side bar menu.
+To detach volume you must select volume which has `in-use` status and click on side-bar menu.
 
 ![](../../assets/img/Volumes/volume_page_15.png)
 
@@ -128,7 +128,7 @@ It will open confirmation window where user must confirm volume detach or cancel
 
 ## Edit volume
 ---
-To edit volume you must click on it in side bar menu of volume you want to edit.
+To edit volume you must click on it in side-bar menu of volume you want to edit.
 
 ![](../../assets/img/Volumes/volume_page_8.png)
 
@@ -142,9 +142,9 @@ It will open **Edit volume** window, which consist of fields and options for vol
 
 Options you can update:
 
-- **Name** of volume can include all letter, numbers or symbols and must be not bigger then 255 characters.
-- **Description** can include all letter, numbers or symbols and must be not bigger then 255 characters.
-- **Bootable status** can changed by clicking on **Bootable** checkbox in editt volume window. 
+- **Name** of volume can include all letter, numbers or symbols and must be not bigger than 255 characters.
+- **Description** can include all letter, numbers or symbols and must be not bigger than 255 characters.
+- **Bootable status** can be changed by clicking on **Bootable** checkbox in edit volume window. 
 
 ![](../../assets/img/Volumes/volume_page_19.png)
 
@@ -162,12 +162,12 @@ Then, the "Edit Volume" window will close and volume will be updated.
 ## Delete volume
 ---
 
-To delete volume you can use two deferent ways:
+There are two deferent ways to delete volume:
 
-- Through the **side bar menu** of volume
-- Through the **checkbox** in front of volume Name.
+- Through the **side-bar menu** of volume
+- Through the **checkbox** in front of volume name.
 
-- To delete volume through the side bar menu you must click on it in right side of volume you want to delete.
+- To delete volume through the side-bar menu you must click on it in right side of volume you want to delete.
 
 ![](../../assets/img/Volumes/volume_page_8.png)
 
@@ -183,7 +183,7 @@ It will open confirmation window where user must confirm volume deletion or canc
 
 **Confirm** button will close "Delete Volume" window and after a few seconds the volume will be deleted.
 
- - To delete volume through checkbox you must click on it in front of volume Name of volume you want to delete.
+ - To delete volume through checkbox you must click on it in front of volume name of volume you want to delete.
 
 ![](../../assets/img/Volumes/volume_page_22.png)
 
@@ -195,11 +195,11 @@ When you select a volume, instead of the **Create** button, a **Delete** and **C
 
 **Delete** button will delete volume without confirmation.
 
-Also you can multi-delete volumes. For that select as more volumes as you need by clicking on their checkboxes. The counter in header will show you how much volumes you had selected.
+Also, you can multi-delete volumes. For that select as more volumes as you need by clicking on their checkboxes. The counter in header will show you how many volumes you had selected.
 
 ![](../../assets/img/Volumes/volume_page_25.png)
 
-Click **Delete** button as in previous action to delete selected volumes. Deletion will done without confirmations.
+Click **Delete** button as in previous action to delete selected volumes. Deletion will be done without confirmations.
 
 ![](../../assets/img/Volumes/volume_page_24.png)
 
