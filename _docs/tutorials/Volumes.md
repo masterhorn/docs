@@ -76,6 +76,7 @@ Then, the "Create Volume" window will close and after a few seconds the volume y
 ## Attach/Detach volume
 ---
 
+
 - ### Attach volume
 
 To attach volume you must choose volume which has `available` status and click on side bar menu.
@@ -99,6 +100,8 @@ After choosing an instance, click on **Attach Volume** button.
 Then, the "Attach Volume" window will close and after a few seconds the volume will attached to instance and will go into status `in-use`
 
 **Cancel** button will close "Attach Volume" window.
+
+
 
 - ### Detach volume
 
