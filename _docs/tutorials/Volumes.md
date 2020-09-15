@@ -167,7 +167,7 @@ To delete volume you can use two deferent ways:
 - Through the **side bar menu** of volume
 - Through the **checkbox** in front of volume Name.
 
-To delete volume through the side bar menu you must click on it in right side of volume you want to delete.
+- To delete volume through the side bar menu you must click on it in right side of volume you want to delete.
 
 ![](../../assets/img/Volumes/volume_page_8.png)
 
@@ -183,7 +183,7 @@ It will open confirmation window where user must confirm volume deletion or canc
 
 **Confirm** button will close "Delete Volume" window and after a few seconds the volume will be deleted.
 
-To delete volume through checkbox you must click on it in front of volume Name of volume you want to delete.
+ - To delete volume through checkbox you must click on it in front of volume Name of volume you want to delete.
 
 ![](../../assets/img/Volumes/volume_page_22.png)
 
