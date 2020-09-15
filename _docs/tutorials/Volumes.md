@@ -76,6 +76,7 @@ Then, the "Create Volume" window will close and after a few seconds the volume y
 ## Attach/Detach volume
 ---
 
+</br>
 
 - ### Attach volume
 
@@ -101,7 +102,7 @@ Then, the "Attach Volume" window will close and after a few seconds the volume w
 
 **Cancel** button will close "Attach Volume" window.
 
-
+</br>
 
 - ### Detach volume
 
