@@ -76,7 +76,7 @@ Then, the "Create Volume" window will close and after a few seconds the volume y
 ## Attach/Detach volume
 ---
 
-</br>
+<br>
 
 - ### Attach volume
 
@@ -102,7 +102,7 @@ Then, the "Attach Volume" window will close and after a few seconds the volume w
 
 **Cancel** button will close "Attach Volume" window.
 
-</br>
+<br>
 
 - ### Detach volume
 
@@ -140,7 +140,8 @@ It will open **Edit volume** window, which consist of fields and options for vol
 
 ![](../../assets/img/Volumes/volume_page_20.png)
 
-In volume you can edit:
+Options you can update:
+
 - **Name** of volume can include all letter, numbers or symbols and must be not bigger then 255 characters.
 - **Description** can include all letter, numbers or symbols and must be not bigger then 255 characters.
 - **Bootable status** can changed by clicking on **Bootable** checkbox in editt volume window. 
