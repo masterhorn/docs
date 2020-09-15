@@ -203,4 +203,17 @@ Click **Delete** button as in previous action to delete selected volumes. Deleti
 
 ![](../../assets/img/Volumes/volume_page_24.png)
 
+## Details volume page
+---
 
+To get to the Volume details page you must click on volume name 
+
+![](../../assets/img/Volumes/volume_page_26.png)
+
+Then you will go to the **Volume details page** where contains more details information about volume like: `volume ID`, `bootable status`, `created/updated` time.
+
+![](../../assets/img/Volumes/volume_page_27.png)
+
+Also there is a transition to the **Snapshots page** through link in header.
+
+![](../../assets/img/Volumes/volume_page_28.png)
