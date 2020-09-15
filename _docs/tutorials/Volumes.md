@@ -59,7 +59,7 @@ Optional field is: `Description`.
 
 First, you must specify volume name, size and region. Only after region was selected you can select volume type. And after you can fill description as needed.
 
-- **Name** of volume can include all letter, numbers or symbols and must be not bigger than 255 characters. If volume was created by instance, name will be automatically  fill with volume ID.
+- **Name** of volume can include all letter, numbers or symbols and must be not bigger than 255 characters. If volume was created by instance, name will be automatically filled with volume ID.
 - **Size** can be specified  in the range from 10 GB to 1000 GB. Minimal available size `10 GB` is selected by default when you are opening create window.
 - **Region** can be specified  from three available regions: `as`, `us`, `vs`. It depends on which region the created volume will be located.
 - **Type** can be specified  from two available types: `RBD` and `__DEFAULT__`.
@@ -144,7 +144,7 @@ Options you can update:
 
 - **Name** of volume can include all letter, numbers or symbols and must be not bigger than 255 characters.
 - **Description** can include all letter, numbers or symbols and must be not bigger than 255 characters.
-- **Bootable status** can changed by clicking on **Bootable** checkbox in edit volume window. 
+- **Bootable status** can be changed by clicking on **Bootable** checkbox in edit volume window. 
 
 ![](../../assets/img/Volumes/volume_page_19.png)
 
@@ -195,7 +195,7 @@ When you select a volume, instead of the **Create** button, a **Delete** and **C
 
 **Delete** button will delete volume without confirmation.
 
-Also you can multi-delete volumes. For that select as more volumes as you need by clicking on their checkboxes. The counter in header will show you how many volumes you had selected.
+Also, you can multi-delete volumes. For that select as more volumes as you need by clicking on their checkboxes. The counter in header will show you how many volumes you had selected.
 
 ![](../../assets/img/Volumes/volume_page_25.png)
 
@@ -214,6 +214,6 @@ Then you will go to the **Volume details page** where contains more details info
 
 ![](../../assets/img/Volumes/volume_page_27.png)
 
-Also there is a transition to the **Snapshots page** through link in header.
+Also, there is a transition to the **Snapshots page** through link in header.
 
 ![](../../assets/img/Volumes/volume_page_28.png)
