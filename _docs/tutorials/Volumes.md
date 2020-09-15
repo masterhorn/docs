@@ -124,7 +124,6 @@ It will open confirmation window where user must confirm volume detach or cancel
 
 ## Edit volume
 ---
-
 To edit volume you must click on it in side bar menu of volume you want to edit.
 
 ![](../../assets/img/Volumes/volume_page_8.png)
