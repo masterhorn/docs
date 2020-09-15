@@ -86,7 +86,9 @@ To attach volume you must choose volume which has `available` status and click o
 
 In opened dropdown menu click on `Attach Volume` option.
 
+<br>
 {% include alert.html type="info" title="Note:" content="For volume which has status available Detach Volume button will be disabled." %}
+<br>
 
 ![](../../assets/img/Volumes/volume_page_12.png)
 
@@ -112,7 +114,9 @@ To detach volume you must choose volume which has `in-use` status and click on s
 
 In opened dropdown menu click on `Detach Volume` option.
 
+<br>
 {% include alert.html type="info" title="Note:" content="For volume which has status in-use Attach Volume button will be disabled." %}
+<br>
 
 ![](../../assets/img/Volumes/volume_page_16.png)
 
@@ -124,7 +128,9 @@ It will open confirmation window where user must confirm volume detach or cancel
 
 **Confirm** button will close "Detach Volume" window and after a few seconds the volume will detach from instance and will go into status `available`.
 
+<br>
 {% include alert.html type="info" title="Note:" content="For volume which was created with instance Detach Volume button will be disabled." %}
+<br>
 
 ## Edit volume
 ---
@@ -148,7 +154,9 @@ Options you can update:
 
 ![](../../assets/img/Volumes/volume_page_19.png)
 
+<br>
 {% include alert.html type="info" title="Note:" content="Options that you can't change will be disabled in Edit Volume window." %}
+<br>
 
 After updating volume options, click on **Edit Volume** button. 
 
