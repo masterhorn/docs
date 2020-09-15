@@ -74,6 +74,54 @@ Then, the volume creation window will close and after a few seconds the volume y
 
 **Cancel** button will close volume creation window and will update all fields to their default state.
 
+## Attach/Detach volume
+
+- **Attach volume** To attach volume you must choose volume which has status `available` and click on side bar menu.
+
+![](../../assets/img/Volumes/volume_page_11.png)
+
+In opened dropdown menu click on `Attach Volume` option.
+
+{% include alert.html type="info" title="Note:" content="For volume which has status available detach button will be disabled." %}
+
+![](../../assets/img/Volumes/volume_page_12.png)
+
+The attach button will open **Attach volume** window, which contains a field for selecting the instance to which the volume will be attached, and two buttons **Attach Volume** and **Cancel**:
+
+![](../../assets/img/Volumes/volume_page_13.png)
+
+When you choose the instance click on **Attach Volume** button 
+
+![](../../assets/img/Volumes/volume_page_14.png)
+
+Then, the attach volume window will close and after a few seconds the volume will attached to instance and will go into status `in-use`
+
+**Cancel** button will close attach volume window.
+
+- **Detach volume** To detach volume you must choose volume which has status `in-use` and click on side bar menu.
+
+![](../../assets/img/Volumes/volume_page_15.png)
+
+In opened dropdown menu click on `Detach Volume` option.
+
+{% include alert.html type="info" title="Note:" content="For volume which has status in-use attach button will be disabled." %}
+
+![](../../assets/img/Volumes/volume_page_16.png)
+
+It will open confirmation window where user must confirm volume detach or cancel it.
+
+![](../../assets/img/Volumes/volume_page_17.png)
+
+**Cancel** button will close volume detach window.
+
+**Confirm** button will close detach volume window and after a few seconds the volume will detach from instance and will go into status `available`.
+
+{% include alert.html type="info" title="Note:" content="For volume which was created with instance detach button will be disabled." %}
+
+## Edit volume
+
+
+
 ## Delete volume
 
 To delete volume you can use two deferent ways:
